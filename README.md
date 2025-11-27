@@ -44,4 +44,30 @@ Features:
 
 ---
 
-## 🔗 Project Workflow
+# CI/CD Pipeline with Jenkins, Docker and Kubernetes
+
+This project demonstrates an automated CI/CD pipeline for building and deploying an application using Jenkins, Docker, and Kubernetes.
+
+## Pipeline Stages
+1. Pull code from GitHub
+2. Build application
+3. Build Docker image
+4. Push image to DockerHub
+5. Deploy application to Kubernetes
+
+## Tools Used
+- Jenkins
+- Docker / DockerHub
+- Kubernetes (Minikube / EKS / GKE / AKS)
+- Helm (optional)
+
+## Important Files
+| File / Folder | Purpose |
+|--------------|---------|
+| Jenkinsfile | Defines pipeline stages |
+| Dockerfile | Creates container image |
+| k8s-manifests/ | Deployment & Service YAMLs |
+| helm-chart/ | Optional Helm deployment |
+
+---
+
