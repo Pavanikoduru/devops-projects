@@ -44,7 +44,7 @@ Features:
 
 ---
 
-# CI/CD Pipeline with Jenkins, Docker and Kubernetes
+# 4. CI/CD Pipeline with Jenkins, Docker and Kubernetes
 
 This project demonstrates an automated CI/CD pipeline for building and deploying an application using Jenkins, Docker, and Kubernetes.
 
